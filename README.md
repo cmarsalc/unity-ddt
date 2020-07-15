@@ -12,6 +12,7 @@ We put the idea in the fridge until better times come for this to evolve to over
 
 ----
 
+```
 uint16_t DDTNumber;
 const char* DDTMessage;
 
@@ -86,3 +87,4 @@ void test_DDT_WhenPrvOffsetAll(void)
 {
 	DDT_EXECUTE_ALL(prvOffsetSteps, prvOffsetTestCases, 1);
 }
+```
